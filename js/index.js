@@ -48,6 +48,7 @@ window.addEventListener("load", function() {
             PRODUCTO.datos = datos;
             console.log(JSON.stringify(PRODUCTO));
             localStorage.setItem('MisVentas', JSON.stringify((PRODUCTO)));
+            alert("Compra realizada con exito, para seguir comprando regrese a la lista de productos :)");
         }
     });
 
