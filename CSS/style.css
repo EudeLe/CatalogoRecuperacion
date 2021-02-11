@@ -169,3 +169,8 @@ ul {
     margin-bottom: 10px;
     text-decoration: none;
 }
+.compra {
+    padding: 20px 0;
+    background: #93fb32;
+    background: -webkit-linear-gradient(left, #207cc2 0%, #ad5400 100%);
+}
