@@ -48,7 +48,7 @@ window.addEventListener("load", function() {
             PRODUCTO.datos = datos;
             console.log(JSON.stringify(PRODUCTO));
             localStorage.setItem('MisVentas', JSON.stringify((PRODUCTO)));
-            alert("Ha elegido el producto a comprar, puede ir a confirmar en el ícono del carrito en la opción CARRITO para terminar la compra con éxito. Gracias por su preferencia)");
+            alert("Ha elegido el producto a comprar, puede ir a confirmar en el ícono del carrito en la opción CARRITO para terminar la compra con éxito. Gracias por su preferencia");
         }
     });
 
